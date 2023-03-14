@@ -1,0 +1,42 @@
+:root {
+    --cor-de-fundo: #00030c;
+
+    --cor-primaria: #fff;
+    --cor-secundaria: #c0c0c0;
+    --cor-terciaria: #167bf7;
+
+    --fonte-primaria: arial,sans-serif;
+    --fonte-secundaria: ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.header {
+    margin: 2rem;
+    display: flex;
+}
+
+.header__nav a{
+    color: var(--cor-primaria);
+}
+
+.nav__ancora {
+    margin: 0 2rem;
+}
+
+.main__titulo {
+    font-size: 1.5rem;
+}
