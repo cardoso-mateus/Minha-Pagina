@@ -17,6 +17,8 @@
 }
 
 body {
+    box-sizing: border-box;
+    height: 100vh;
     background-color: var(--cor-de-fundo);
     color: var(--cor-primaria);
     font-family: var(--fonte-primaria);
