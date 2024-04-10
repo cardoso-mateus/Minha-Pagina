@@ -1,9 +1,12 @@
 :root {
-    --cor-de-fundo: #00030c;
+    --cor-de-fundo: #201C18;
 
-    --cor-primaria: #fff;
-    --cor-secundaria: #c0c0c0;
-    --cor-terciaria: #167bf7;
+    --cor-primaria: #E6C063;
+    --cor-secundaria: #6878A3;
+    --cor-terciaria: #597DE3;
+    --cor-quaternaria: #8E8367;
+    --cor-quinaria: #595B63;
+
 
     --fonte-primaria: arial,sans-serif;
     --fonte-secundaria: ;
@@ -39,6 +42,31 @@ body {
     margin: 0 2rem;
 }
 
+.main {
+    height: 85vh;
+}
+
+.main__section__1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__div {
+    width: 615px;
+    margin: 10% 10%;
+    align-items: center;
+}
+
 .main__titulo {
     font-size: 1.5rem;
+}
+
+.main__paragrafo__2 {
+    margin: 15px 0;
+}
+
+.main__imagem__folha {
+    margin-right: 10%;
+    height: 30rem;
 }
